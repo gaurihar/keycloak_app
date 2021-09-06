@@ -1,0 +1,19 @@
+<mat-toolbar color="red">
+    <button mat-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
+    <mat-menu #menu="matMenu">
+    <button mat-menu-item ><a href='menu'>Pages</a></button>
+    </mat-menu>
+    
+  
+
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with user icon">
+    <mat-icon>account_circle</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with user icon">
+    <h4><a href="#" (click)="logout()">Logout</a></h4>
+
+  </button>
+</mat-toolbar>
+
+

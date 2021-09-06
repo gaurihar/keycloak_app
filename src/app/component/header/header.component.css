@@ -1,0 +1,52 @@
+h5 {
+    background-color: blueviolet;
+    
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    }
+
+
+    ::ng-deep .mat-menu-content{
+        background-color:rgb(233, 213, 213);
+        top: 10%;
+        margin-top: 1%;
+      }
+
+      div.d1{
+        margin-top: 10%;
+        
+      }
+      
+      .mat-toolbar{
+        margin-top: 0%;
+      }
+
+      .example-spacer {
+        flex: 1 1 auto;
+      }
+
+      a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: rgb(6, 14, 92);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: rgb(25, 94, 4);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      p{
+        background-color: red
+      }
