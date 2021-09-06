@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 
 import { KeycloakService, KeycloakAuthGuard } from 'keycloak-angular';
-
+@Injectable({
+    providedIn: 'root',
+  })
 export class AuthService
 {
     constructor(private keycloakService : KeycloakService){}

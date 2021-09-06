@@ -66,10 +66,13 @@ export class AppAuthGuard extends KeycloakAuthGuard {
     let permission;
       if (!this.authenticated) {
         this.keycloakAngular.login().catch((e) => console.error(e));
+        console.log("hiiii login")
+        console.log(this.roles)
         return reject(false);
       }
 
       const requiredRoles: string[] = route.data.roles;
+      console.log(route.data.roles)
       if (!requiredRoles || requiredRoles.length === 0) {
         permission = true;
       } else {
